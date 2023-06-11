@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: content-center
+
+  profiles:
+    active: dev
+
+  cloud:
+    nacos:
+      config:
+        # nacos 地址
+        server-addr: localhost:8848
+        file-extension: yaml

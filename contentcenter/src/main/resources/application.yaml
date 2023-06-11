@@ -1,0 +1,72 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.33.11:3306/content_center
+    hikari:
+      username: root
+      password: wpscloud
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+  application:
+    name: content-center
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+    loadbalancer:
+      # default、zone-preference、request-based-sticky-session、same-instance-preference
+      configurations: "request-based-sticky-session"
+      # 避免首次请求很慢，这里使用 饥饿加载 -> 指定请求 user-center微服务时饥饿加载
+      eager-load:
+        clients: user-center
+    openfeign:
+      client:
+        config:
+          # 想要调用的微服务的名称
+          user-center:
+            loggerLevel: full
+            requestInterceptors:
+              # 给全局配置一个 requestInterceptors: 将自实现的RequestInterceptor的类全路径给这个配置 实现feign传递token
+              - com.kingsoft.woa.contentcenter.feignclient.interceptor.TokenTelayRequestIntecepor
+
+    sentinel:
+      transport:
+        #指定sentin控制台的地址
+        dashboard: localhost:8080
+
+server:
+  port: 8010
+
+logging:
+  level:
+    com.kingsoft.woa.contentcenter: debug
+#    com.kingsoft.woa.contentcenter.feignclient.UserCenterFeignClient: debug
+
+# 配置actuator和Sentinel联动
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+#  endpoint:
+#    health:
+#      show-details: always
+
+feign:
+  sentinel:
+    enabled: true
+
+my:
+  config: "aaa"
+
+# 接入Jaeger
+opentracing:
+  jaeger:
+    enabled: true
+    log-spans: true
+    const-sampler:
+      decision: true
+    udp-sender:
+      host: 192.168.33.11
+      port: 6831
