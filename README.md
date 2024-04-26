@@ -1,4 +1,4 @@
-# 基于Spring boot + Spring Cloud + Mybatis + mybatis generator的项目
+# 基于Spring boot + Spring Cloud的脚手架组件集合demo
 
 ## 技术栈介绍
 1. 目录划分：  
