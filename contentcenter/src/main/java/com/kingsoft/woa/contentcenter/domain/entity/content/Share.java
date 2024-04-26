@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter.domain.entity.content;
+package com.kt.w.contentcenter.domain.entity.content;
 
 import java.util.Date;
 import javax.persistence.*;

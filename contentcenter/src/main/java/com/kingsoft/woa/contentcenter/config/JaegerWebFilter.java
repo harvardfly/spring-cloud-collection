@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter.config;
+package com.kt.w.contentcenter.config;
 
 import com.alibaba.nacos.shaded.javax.annotation.Nullable;
 import io.opentracing.Scope;

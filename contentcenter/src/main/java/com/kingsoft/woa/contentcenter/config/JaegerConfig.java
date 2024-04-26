@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter.config;
+package com.kt.w.contentcenter.config;
 
 import io.jaegertracing.internal.JaegerTracer;
 import io.jaegertracing.internal.samplers.ConstSampler;

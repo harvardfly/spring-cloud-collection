@@ -1,12 +1,12 @@
-package com.kingsoft.woa.contentcenter.controller.share;
+package com.kt.w.contentcenter.controller.share;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
-import com.kingsoft.woa.contentcenter.domain.entity.content.Share;
-import com.kingsoft.woa.contentcenter.domain.entity.content.dto.content.ShareDto;
-import com.kingsoft.woa.contentcenter.service.content.ShareService;
+import com.kt.w.contentcenter.domain.entity.content.Share;
+import com.kt.w.contentcenter.domain.entity.content.dto.content.ShareDto;
+import com.kt.w.contentcenter.service.content.ShareService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;

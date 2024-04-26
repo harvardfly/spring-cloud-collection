@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter.feignclient.interceptor;
+package com.kt.w.contentcenter.feignclient.interceptor;
 
 //省略包名
 import feign.RequestInterceptor;

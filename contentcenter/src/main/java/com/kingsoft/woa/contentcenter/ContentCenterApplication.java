@@ -1,6 +1,6 @@
-package com.kingsoft.woa.contentcenter;
+package com.kt.w.contentcenter;
 
-import com.kingsoft.woa.contentcenter.feignclient.UserCenterFeignClient;
+import com.kt.w.contentcenter.feignclient.UserCenterFeignClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
 import tk.mybatis.spring.annotation.MapperScan;
 
 // 扫描mybatis哪些包里面的接口
-@MapperScan("com.kingsoft.woa.contentcenter.dao.content")
+@MapperScan("com.kt.w.contentcenter.dao.content")
 @Configuration
 //@RibbonClient(name="user-center",configuration = RibbonConfiguration.class)
 @EnableFeignClients

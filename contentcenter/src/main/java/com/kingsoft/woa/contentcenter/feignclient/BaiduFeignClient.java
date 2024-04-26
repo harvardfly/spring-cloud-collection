@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter.feignclient;
+package com.kt.w.contentcenter.feignclient;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

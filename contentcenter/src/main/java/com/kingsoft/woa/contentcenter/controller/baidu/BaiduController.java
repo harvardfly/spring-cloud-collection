@@ -1,6 +1,6 @@
-package com.kingsoft.woa.contentcenter.controller.baidu;
+package com.kt.w.contentcenter.controller.baidu;
 
-import com.kingsoft.woa.contentcenter.feignclient.BaiduFeignClient;
+import com.kt.w.contentcenter.feignclient.BaiduFeignClient;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

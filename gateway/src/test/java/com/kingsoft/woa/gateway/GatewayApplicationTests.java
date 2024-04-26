@@ -1,4 +1,4 @@
-package com.kingsoft.woa.gateway;
+package com.kt.w.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

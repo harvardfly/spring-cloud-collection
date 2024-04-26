@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter.domain.entity.content.dto.user;
+package com.kt.w.contentcenter.domain.entity.content.dto.user;
 
 import lombok.Data;
 

@@ -1,11 +1,11 @@
-package com.kingsoft.woa.contentcenter.service.content;
+package com.kt.w.contentcenter.service.content;
 
 import com.fasterxml.jackson.databind.util.BeanUtil;
-import com.kingsoft.woa.contentcenter.dao.content.ShareMapper;
-import com.kingsoft.woa.contentcenter.domain.entity.content.Share;
-import com.kingsoft.woa.contentcenter.domain.entity.content.dto.content.ShareDto;
-import com.kingsoft.woa.contentcenter.domain.entity.content.dto.user.UserDto;
-import com.kingsoft.woa.contentcenter.feignclient.UserCenterFeignClient;
+import com.kt.w.contentcenter.dao.content.ShareMapper;
+import com.kt.w.contentcenter.domain.entity.content.Share;
+import com.kt.w.contentcenter.domain.entity.content.dto.content.ShareDto;
+import com.kt.w.contentcenter.domain.entity.content.dto.user.UserDto;
+import com.kt.w.contentcenter.feignclient.UserCenterFeignClient;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;

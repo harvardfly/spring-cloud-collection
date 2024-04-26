@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter;
+package com.kt.w.contentcenter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

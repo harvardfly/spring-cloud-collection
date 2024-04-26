@@ -1,4 +1,4 @@
-//package com.kingsoft.woa.contentcenter.configuration;
+//package com.kt.w.contentcenter.configuration;
 //
 //import org.springframework.cloud.netflix.ribbon.RibbonClient;
 //import org.springframework.context.annotation.Configuration;

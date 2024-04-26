@@ -1,7 +1,7 @@
-package com.kingsoft.woa.contentcenter.feignclient;
+package com.kt.w.contentcenter.feignclient;
 
-import com.kingsoft.woa.contentcenter.configuration.UserCenterFeignConfiguration;
-import com.kingsoft.woa.contentcenter.domain.entity.content.dto.user.UserDto;
+import com.kt.w.contentcenter.configuration.UserCenterFeignConfiguration;
+import com.kt.w.contentcenter.domain.entity.content.dto.user.UserDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

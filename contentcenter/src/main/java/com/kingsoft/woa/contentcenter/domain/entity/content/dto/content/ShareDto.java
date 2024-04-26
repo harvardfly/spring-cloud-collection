@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter.domain.entity.content.dto.content;
+package com.kt.w.contentcenter.domain.entity.content.dto.content;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

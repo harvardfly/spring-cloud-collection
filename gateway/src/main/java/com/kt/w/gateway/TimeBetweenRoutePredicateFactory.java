@@ -1,4 +1,4 @@
-package com.kingsoft.woa.gateway;
+package com.kt.w.gateway;
 
 import org.springframework.cloud.gateway.handler.predicate.AbstractRoutePredicateFactory;
 import org.springframework.stereotype.Component;

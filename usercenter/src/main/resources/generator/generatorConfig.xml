@@ -20,15 +20,15 @@
                         password="${jdbc.password}">
         </jdbcConnection>
         <!--    实体    -->
-        <javaModelGenerator targetPackage="com.kingsoft.woa.usercenter.domain.entity.${moduleName}"
+        <javaModelGenerator targetPackage="com.kt.w.usercenter.domain.entity.${moduleName}"
                             targetProject="src/main/java"/>
 
         <!--    mapper.xml    -->
-        <sqlMapGenerator targetPackage="com.kingsoft.woa.usercenter.dao.${moduleName}"
+        <sqlMapGenerator targetPackage="com.kt.w.usercenter.dao.${moduleName}"
                          targetProject="src/main/resources"/>
 
         <!--    mapper接口    -->
-        <javaClientGenerator targetPackage="com.kingsoft.woa.usercenter.dao.${moduleName}"
+        <javaClientGenerator targetPackage="com.kt.w.usercenter.dao.${moduleName}"
                              targetProject="src/main/java"
                              type="XMLMAPPER"/>
 

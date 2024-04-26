@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter.sentinel;
+package com.kt.w.contentcenter.sentinel;
 
 import com.alibaba.csp.sentinel.command.handler.ModifyParamFlowRulesCommandHandler;
 import com.alibaba.csp.sentinel.datasource.*;

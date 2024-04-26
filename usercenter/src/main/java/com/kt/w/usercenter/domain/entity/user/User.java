@@ -1,4 +1,4 @@
-package com.kingsoft.woa.usercenter.domain.entity.user;
+package com.kt.w.usercenter.domain.entity.user;
 
 import java.util.Date;
 import javax.persistence.*;

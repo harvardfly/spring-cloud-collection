@@ -1,7 +1,7 @@
-package com.kingsoft.woa.usercenter.service.user;
+package com.kt.w.usercenter.service.user;
 
-import com.kingsoft.woa.usercenter.dao.user.UserMapper;
-import com.kingsoft.woa.usercenter.domain.entity.user.User;
+import com.kt.w.usercenter.dao.user.UserMapper;
+import com.kt.w.usercenter.domain.entity.user.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

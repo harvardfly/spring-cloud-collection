@@ -1,4 +1,4 @@
-package com.kingsoft.woa.gateway;
+package com.kt.w.gateway;
 
 /*
  * 创建配置类

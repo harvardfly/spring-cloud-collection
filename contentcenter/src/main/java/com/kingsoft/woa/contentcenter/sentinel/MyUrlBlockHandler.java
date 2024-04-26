@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter.sentinel;
+package com.kt.w.contentcenter.sentinel;
 
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.alibaba.csp.sentinel.slots.block.authority.AuthorityException;

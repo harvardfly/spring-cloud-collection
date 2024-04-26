@@ -1,4 +1,4 @@
-package com.kingsoft.woa.contentcenter.sentinel;
+package com.kt.w.contentcenter.sentinel;
 
 import com.alibaba.cloud.commons.lang.StringUtils;
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.RequestOriginParser;

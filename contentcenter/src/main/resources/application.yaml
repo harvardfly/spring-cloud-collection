@@ -28,7 +28,7 @@ spring:
             loggerLevel: full
             requestInterceptors:
               # 给全局配置一个 requestInterceptors: 将自实现的RequestInterceptor的类全路径给这个配置 实现feign传递token
-              - com.kingsoft.woa.contentcenter.feignclient.interceptor.TokenTelayRequestIntecepor
+              - com.kt.w.contentcenter.feignclient.interceptor.TokenTelayRequestIntecepor
 
     sentinel:
       transport:
@@ -40,8 +40,8 @@ server:
 
 logging:
   level:
-    com.kingsoft.woa.contentcenter: debug
-#    com.kingsoft.woa.contentcenter.feignclient.UserCenterFeignClient: debug
+    com.kt.w.contentcenter: debug
+#    com.kt.w.contentcenter.feignclient.UserCenterFeignClient: debug
 
 # 配置actuator和Sentinel联动
 management:

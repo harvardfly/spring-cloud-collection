@@ -1,7 +1,7 @@
-package com.kingsoft.woa.usercenter.controller.user;
+package com.kt.w.usercenter.controller.user;
 
-import com.kingsoft.woa.usercenter.domain.entity.user.User;
-import com.kingsoft.woa.usercenter.service.user.UserService;
+import com.kt.w.usercenter.domain.entity.user.User;
+import com.kt.w.usercenter.service.user.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
